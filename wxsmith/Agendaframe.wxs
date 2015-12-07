@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="AgendaFrame">
+		<title>Agenda Simples V1.2</title>
+		<size>640,480</size>
+		<id_arg>0</id_arg>
+		<object class="wxSashLayoutWindow" name="ID_SASHLAYOUTWINDOW1" variable="SashLayoutWindow1" member="yes">
+			<pos>128,192</pos>
+			<size>640,480</size>
+			<object class="wxButton" name="ID_BUTTON1" variable="Button1" member="yes">
+				<label>Cadastrar</label>
+				<pos>60,20</pos>
+				<handler function="OnButton1Click1" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON2" variable="Button2" member="yes">
+				<label>Deletar</label>
+				<pos>140,20</pos>
+				<handler function="OnButton2Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxButton" name="ID_BUTTON3" variable="Button3" member="yes">
+				<label>Atualizar</label>
+				<pos>420,20</pos>
+				<handler function="OnButton3Click" entry="EVT_BUTTON" />
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT1" variable="StaticText1" member="yes">
+				<label>Nome:</label>
+				<pos>35,60</pos>
+				<size>41,13</size>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL1" variable="TextCtrl1" member="yes">
+				<value>Nome</value>
+				<pos>80,55</pos>
+			</object>
+			<object class="wxStaticText" name="ID_STATICTEXT2" variable="StaticText2" member="yes">
+				<label>Telefone:</label>
+				<pos>20,90</pos>
+			</object>
+			<object class="wxTextCtrl" name="ID_TEXTCTRL2" variable="TextCtrl2" member="yes">
+				<value>(88)996112200</value>
+				<pos>80,90</pos>
+			</object>
+			<object class="wxListCtrl" name="ID_LISTCTRL1" variable="ListCtrl1" member="yes">
+				<pos>347,64</pos>
+				<size>260,395</size>
+				<style>wxLC_REPORT</style>
+			</object>
+			<object class="wxButton" name="ID_BUTTON4" variable="Button4" member="yes">
+				<label>Deletar</label>
+				<pos>500,20</pos>
+				<handler function="OnButton4Click" entry="EVT_BUTTON" />
+			</object>
+		</object>
+	</object>
+</wxsmith>
